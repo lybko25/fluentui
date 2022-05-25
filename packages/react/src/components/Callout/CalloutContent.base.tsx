@@ -16,6 +16,7 @@ import { Popup } from '../../Popup';
 import { classNamesFunction } from '../../Utilities';
 import { AnimationClassNames } from '../../Styling';
 import { useMergedRefs, useAsync, useConst, useTarget, useOnEvent } from '@fluentui/react-hooks';
+import { Async } from '@fluentui/utilities';
 import type { ICalloutProps, ICalloutContentStyleProps, ICalloutContentStyles } from './Callout.types';
 import type { Point, IRectangle } from '../../Utilities';
 import type { ICalloutPositionedInfo, IPositionProps, IPosition } from '../../Positioning';

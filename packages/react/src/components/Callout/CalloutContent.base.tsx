@@ -154,7 +154,7 @@ function usePositions(
   const [positions, setPositions] = React.useState<ICalloutPositionedInfo>();
   const positionAttempts = React.useRef(0);
   const previousTarget = React.useRef<Target>();
-  const async = useAsync();
+  const async = new Async();
   const { hidden, target, finalHeight, calloutMaxHeight, onPositioned, directionalHint } = props;
 
   React.useEffect(() => {
